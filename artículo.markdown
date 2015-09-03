@@ -37,7 +37,7 @@ Esquemas de trabajo: general y específicos (escáner, buses, otras)
 Resultados
 ==
 * Al finalizar el 2014: 2 borradores de propuestas de investigación para ser presentadas a las VIE en la ronda del 2015, dado que la presentación de las propuestas es en mayo todavía se dispone de bastante tiempo para refinarlas. 
-* 2013-2014:Exposición a público general: días de la libertad de software (Alajuela, limón)[nota al pie: explicar qué es el SFD, que fue apoyado por la municipalidad de Alaljuela y que tuvo amplia difusión en medios de prensa], semana Interunivesitaria (buses), día de la sede. 
+* 2013-2014:Exposición a público general: días de la libertad de software (Alajuela, limón)[nota al pie: explicar qué es el SFD, que fue apoyado por la municipalidad de Alajuela y que tuvo amplia difusión en medios de prensa], semana Interunivesitaria (buses), día de la sede. 
 * Al finalizar 2014: Espacio físico destinado para trabajar y materiales suficientes para cumplir con el propósito de experimentar con tecnologías.  
 
 
@@ -78,4 +78,9 @@ Tiene referencias interesantes. (lo voy a compartir en mendeley)
 http://arxiv.org/format/1409.3143v2
 
 
+**Free and Open-Source Software is not an Emerging Property but rather the result of studied design**
+
+--> Entre 2007-2009 el 86% de los desarrolladores del kernel de linux estaban contratados tiempo completo en una empresa. 
+
+http://arxiv.org/abs/1012.5625
 
