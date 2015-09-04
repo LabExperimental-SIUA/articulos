@@ -1,4 +1,8 @@
 instrumentos/*
 labexp1.pdf
 referencias_revisar/
+*.aux
+*.log
+*~
+*.synctex.gz
 
