@@ -23,38 +23,54 @@
 \begin{document}
 
 % can use linebreaks \\ within to get better formatting as desired
-\title{Laboratorio Experimental de Tecnologías Computacionales: lecciones aprendidas luego de dos años de trabajo}
+\title{
+    Laboratorio Experimental de Tecnologías Computacionales: lecciones
+    aprendidas luego de dos años de trabajo}
 
 % author names and affiliations
-\author{\IEEEauthorblockN{Aurelio Sanabria Rodríguez}
-\IEEEauthorblockA{Instituto Tecnológico de Costa Rica\\
-Sede Interuniversitaria de Alajuela\\
-Alajuea, Costa Rica\\
-ausanabria@itcr.ac.cr}
-\and
-\IEEEauthorblockN{Diego Munguía Molina}
-\IEEEauthorblockA{Instituto Tecnológico de Costa Rica\\
-Sede Interuniversitaria de Alajuela\\
-Alajuea, Costa Rica\\
-dmunguia@itcr.ac.cr}
-\and
-\IEEEauthorblockN{Jaime Gutiérrez Alfaro}
-\IEEEauthorblockA{Instituto Tecnológico de Costa Rica\\
-Sede Interuniversitaria de Alajuela\\
-Alajuela, Costa Rica\\
-jgutierrez@itcr.ac.cr}}
+\author{
+    \IEEEauthorblockN{Aurelio Sanabria Rodríguez}
+    \IEEEauthorblockA{
+        Instituto Tecnológico de Costa Rica\\
+        Sede Interuniversitaria de Alajuela\\
+        Alajuea, Costa Rica\\
+        ausanabria@itcr.ac.cr}
+
+    \and
+    \IEEEauthorblockN{Diego Munguía Molina}
+    \IEEEauthorblockA{
+        Instituto Tecnológico de Costa Rica\\
+        Sede Interuniversitaria de Alajuela\\
+        Alajuea, Costa Rica\\
+        dmunguia@itcr.ac.cr}
+
+    \and
+    \IEEEauthorblockN{Jaime Gutiérrez Alfaro}
+    \IEEEauthorblockA{
+        Instituto Tecnológico de Costa Rica\\
+        Sede Interuniversitaria de Alajuela\\
+        Alajuela, Costa Rica\\
+        jgutierrez@itcr.ac.cr}
+}
 
 % make the title area
 \maketitle
 
 
-
-
 \begin{abstract}
 
-
 %\boldmath
-Los estudiantes universitarios tienen, en los proyectos de investigación y extensión, oportunidades para poner en práctica los conocimientos aprendidos en un contexto real. La carrera de Ingeniería en Computación del Tecnológico de Costa Rica se comenzó a impartir en la Sede Interuniversitaria de Alajuela en el año 2012 y para el momento de su apertura no se contaba con espacios de este tipo. A mediados del año 2013 se plantea la creación del Laboratorio Experimental como un espacio en el cual se puede contar con equipos computacionales de bajo costo y donde los estudiantes pudieran participar en proyectos de investigación y extensión planteados por profesores de la carrera de Ing. en Computación. Este artículo presenta las experiencias aprendidas del proceso a los dos años de haber iniciado. 
+Los estudiantes universitarios tienen, en los proyectos de investigación y
+extensión, oportunidades para poner en práctica los conocimientos aprendidos en
+un contexto real. La carrera de Ingeniería en Computación del Tecnológico de
+Costa Rica se comenzó a impartir en la Sede Interuniversitaria de Alajuela en el
+año 2012 y para el momento de su apertura no se contaba con espacios de este
+tipo. A mediados del año 2013 se plantea la creación del Laboratorio
+Experimental como un espacio en el cual se puede contar con equipos
+computacionales de bajo costo y donde los estudiantes pudieran participar en
+proyectos de investigación y extensión planteados por profesores de la carrera
+de Ing. en Computación. Este artículo presenta las experiencias aprendidas del
+proceso a los dos años de haber iniciado. 
 
 
 \end{abstract}
@@ -79,33 +95,77 @@ Palabras clave — estudiantes de grado, tecnología de bajo costo, software lib
 
 \section{Introducción}
 
-A finales del 2011 el Consejo de Escuela de Ingeniería en Computación acordó comenzar a impartir la carrera en la Sede Interuniversitaria de Alajuela (SIUA). En el año 2012 se recibieron los primeros estudiantes y en adelante cada año se admiten entre 40 y 80 nuevos alumnos. Si bien la Sede Interuniversitaria de Alajuela comenzó a funcionar desde el año 2008 el Tecnológico de Costa Rica no tenía ninguna carrera de grado en la Sede, por lo que la apertura de Ing. en Computación significó una gran oportunidad para los estudiantes de la zona pero a la vez evidenció la ausencia de posibilidades académicas, más allá de la docencia, para los estudiantes empadronados en la sede. 
+A finales del 2011 el Consejo de Escuela de Ingeniería en Computación acordó
+comenzar a impartir la carrera en la Sede Interuniversitaria de Alajuela (SIUA).
+En el año 2012 se recibieron los primeros estudiantes y en adelante cada año se
+admiten entre 40 y 80 nuevos alumnos. Si bien la Sede Interuniversitaria de
+Alajuela comenzó a funcionar desde el año 2008 el Tecnológico de Costa Rica no
+tenía ninguna carrera de grado en la Sede, por lo que la apertura de Ing. en
+Computación significó una gran oportunidad para los estudiantes de la zona pero
+a la vez evidenció la ausencia de posibilidades académicas, más allá de la
+docencia, para los estudiantes empadronados en la sede. 
 
-Los proyectos de investigación y extensión en los que se involucran estudiantes de la carrera de Ingeniería en Computación les ayudan a desarrollar algunas destrezas técnicas que no están incluidas formalmente en el plan de estudios, por ejemplo: metodologías de investigación o procesos de construcción de aplicaciones de software. Adicionalmente otras habilidades de las llamadas "blandas" son fortalecidas cuando se involucran en este tipo de proyectos, en particular el trabajo en equipo y la expresión oral y escrita. 
+Los proyectos de investigación y extensión en los que se involucran estudiantes
+de la carrera de Ingeniería en Computación les ayudan a desarrollar algunas
+destrezas técnicas que no están incluidas formalmente en el plan de estudios,
+por ejemplo: metodologías de investigación o procesos de construcción de
+aplicaciones de software. Adicionalmente otras habilidades de las llamadas
+"blandas" son fortalecidas cuando se involucran en este tipo de proyectos, en
+particular el trabajo en equipo y la expresión oral y escrita. 
 
-La idea de proveer un espacio académico para que se involucren los estudiantes de la carrera de Ing. en Computación del Tecnológico de Costa Rica en la SIU fue la razón principal por la que a mediados del 2013 se planteó la creación del Laboratorio Experimental de Tecnologías Computacionales (LabExp). Se solicitó la adquisición de equipo computacional de bajo costo y herramientas de trabajo al TEC y un espacio físico de trabajo a la administración de la SIU. Formalmente el Laboratorio se planteó como una actividad de investigación aprobada por el Comité Técnico del Centro de Investigaciones en Computación (CIC). En la propuesta se incluyeron cuatro objetivos y dos ejes de trabajo transversales: (a) apoyo a los cursos de la carrera, principalmente: arquitectura de computadoras, compiladores e intérpretes, sistemas operativos y redes; y (b) fortalecer la investigación y extensión en la carrera. Los objetivos trazados fueron:
+La idea de proveer un espacio académico para que se involucren los estudiantes
+de la carrera de Ing. en Computación del Tecnológico de Costa Rica en la SIU fue
+la razón principal por la que a mediados del 2013 se planteó la creación del
+Laboratorio Experimental de Tecnologías Computacionales (LabExp). Se solicitó la
+adquisición de equipo computacional de bajo costo y herramientas de trabajo al
+TEC y un espacio físico de trabajo a la administración de la SIU. Formalmente el
+Laboratorio se planteó como una actividad de investigación aprobada por el
+Comité Técnico del Centro de Investigaciones en Computación (CIC). En la
+propuesta se incluyeron cuatro objetivos y dos ejes de trabajo transversales:
+(a) apoyo a los cursos de la carrera, principalmente: arquitectura de
+computadoras, compiladores e intérpretes, sistemas operativos y redes; y (b)
+fortalecer la investigación y extensión en la carrera. Los objetivos trazados
+fueron:
 
 %esto deberian ser números
 \begin{itemize}
 
-\item Ofrecer un espacio para el desarrollo de trabajos prácticos como apoyo a los cursos de la carrera de Ingeniería en Computación.
+\item Ofrecer un espacio para el desarrollo de trabajos prácticos como apoyo a
+    los cursos de la carrera de Ingeniería en Computación.
 
-\item Establecer un ambiente creativo que favorezca el desarrollo de propuestas de proyectos de investigación y extensión.
+\item Establecer un ambiente creativo que favorezca el desarrollo de propuestas
+    de proyectos de investigación y extensión.
 
-\item Desarrollar proyectos académicos que permitan la adecuada vinculación con la comunidad.
+\item Desarrollar proyectos académicos que permitan la adecuada vinculación con
+    la comunidad.
 
-\item Crear un espacio que pueda ser luego replicable a otras sedes en las cuales la escuela de computación tiene presencia.
+\item Crear un espacio que pueda ser luego replicable a otras sedes en las
+    cuales la escuela de computación tiene presencia.
 
 \end{itemize}
 
 
-En el segundo semestre del 2013 inició el trabajo en el Laboratorio Experimental con 3 proyectos planteados: Página web, Escáner (posteriormente renombrado "Información Libre y Tecnología") y Red Autónoma. Sin embargo la falta de materiales y espacio físico para trabajar limitó el avance de los proyectos, lo cual significó replantear el trabajo a llevar a cabo durante el siguiente semestre. En el 2014 y 2015 se incorporaron más profesores y estudiantes, se modificaron los proyectos y en general cada semestre de trabajo ha significado una serie de experimentos metodológicos para llevar a cabo el trabajo en los proyectos, estas pruebas han generado una serie de conocimientos que consideramos son valiosos de compartir en este artículo. 
+En el segundo semestre del 2013 inició el trabajo en el Laboratorio Experimental
+con 3 proyectos planteados: Página web, Escáner (posteriormente renombrado
+"Información Libre y Tecnología") y Red Autónoma. Sin embargo la falta de
+materiales y espacio físico para trabajar limitó el avance de los proyectos, lo
+cual significó replantear el trabajo a llevar a cabo durante el siguiente
+semestre. En el 2014 y 2015 se incorporaron más profesores y estudiantes, se
+modificaron los proyectos y en general cada semestre de trabajo ha significado
+una serie de experimentos metodológicos para llevar a cabo el trabajo en los
+proyectos, estas pruebas han generado una serie de conocimientos que
+consideramos son valiosos de compartir en este artículo. 
 
-En las siguiente sección de este trabajo se presentan trabajos relacionados al concepto planteado con el Laboratorio Experimental. Seguidamente se detalla la forma de trabajo de cada uno de los proyectos en cada semestre. Para medir el impacto en los estudiantes participantes en el Laboratorio Experimental, se desarrollo un instrumento que fue aplicado, esto es explicado en la cuarta sección del artículo y finalmente se incluye un análisis de resultados, conclusiones y trabajo futuro. 
+En las siguiente sección de este trabajo se presentan trabajos relacionados al
+concepto planteado con el Laboratorio Experimental. Seguidamente se detalla la
+forma de trabajo de cada uno de los proyectos en cada semestre. Para medir el
+impacto en los estudiantes participantes en el Laboratorio Experimental, se
+desarrollo un instrumento que fue aplicado, esto es explicado en la cuarta
+sección del artículo y finalmente se incluye un análisis de resultados,
+conclusiones y trabajo futuro. 
 
 
 \section{Trabajo relacionado}
-
 
 ¿qué es un laboratorio experimental? fablab, hackerspace, espacio maker y otra cosa?
 
@@ -119,29 +179,36 @@ En las siguiente sección de este trabajo se presentan trabajos relacionados al 
     
     \begin{itemize}
     
-    \item Administrativa: tiempo de los profesores( adhonorem, con tiempo asignado), tiempo de los estudiantes (adhonorem, con horas beca (mecanismos TEC) o con becas específicas (comida y transporte --utilizado en los proyectos de verano--)
+    \item Administrativa: tiempo de los profesores( adhonorem, con tiempo
+        asignado), tiempo de los estudiantes (adhonorem, con horas beca
+        (mecanismos TEC) o con becas específicas (comida y transporte
+        --utilizado en los proyectos de verano--)
     
-    \item Coordinación del trabajo del laboratorio: reuniones con específicas de proyectos, reuniones generales, interacción con la escuela de computación.
+    \item Coordinación del trabajo del laboratorio: reuniones con específicas de
+        proyectos, reuniones generales, interacción con la escuela de
+        computación.
     
     \end{itemize}
 
-\item Específicas: ¿cómo se trabaja en cada proyecto en cada momento del tiempo?
+    \item Específicas: ¿cómo se trabaja en cada proyecto en cada momento del tiempo?
     
-    \begin{itemize}
-    \item Escáner (¿?... explicar la modalidad tomando en cuenta que se tenía que trabajar la propuesta del CIC y las tareas del laboratorio)
-    
-    \item Buses (¿datos abiertos?... explicar la modalidad tomando en cuenta que se tenía que trabajar la propuesta del CIC y las tareas del laboratorio)
-    
-    \item Relojeros
-    
-    \item Proyectos de Verano
-
-    \end{itemize}
-
+        \begin{itemize}
+            \item Escáner (¿?... explicar la modalidad tomando en cuenta que se tenía
+                que trabajar la propuesta del CIC y las tareas del laboratorio)
+            
+            \item Buses (¿datos abiertos?... explicar la modalidad tomando en cuenta que
+                se tenía que trabajar la propuesta del CIC y las tareas del laboratorio)
+            
+            \item Relojeros
+            
+            \item Proyectos de Verano
+        \end{itemize}
 
 \end{itemize}
   
-Nota: Tomar en cuentas aspectos técnicos y de divulgación (wiki, issues, código, posts del blog).  reuniones, asignación de trabajo, expectativas iniciales de trabajo, evaluación del trabajo y ajustes en la siguiente "iteración". 
+Nota: Tomar en cuentas aspectos técnicos y de divulgación (wiki, issues, código,
+posts del blog).  reuniones, asignación de trabajo, expectativas iniciales de
+trabajo, evaluación del trabajo y ajustes en la siguiente "iteración". 
 
 
 % An example of a floating figure using the graphicx package.
@@ -166,20 +233,31 @@ Nota: Tomar en cuentas aspectos técnicos y de divulgación (wiki, issues, códi
 \section{Resultados}
 
 %Resultados de análsis del año 2013
-En el caso del primer objetivo un elemento fundamental para brindar el apoyo efectivo a los cursos de la carrera tiene relación directa con el establecimiento de un espacio físico para trabajar y con materiales computacionales necesarias, ambos elementos no fueron posibles de conseguir en este periodo de tiempo. 
+En el caso del primer objetivo un elemento fundamental para brindar el apoyo
+efectivo a los cursos de la carrera tiene relación directa con el
+establecimiento de un espacio físico para trabajar y con materiales
+computacionales necesarias, ambos elementos no fueron posibles de conseguir en
+este periodo de tiempo. 
 
 
 
-Al finalizar el 2014: 2 borradores de propuestas de investigación para ser presentadas a las VIE en la ronda del 2015, dado que la presentación de las propuestas es en mayo todavía se dispone de bastante tiempo para refinarlas. 
+Al finalizar el 2014: 2 borradores de propuestas de investigación para ser
+presentadas a las VIE en la ronda del 2015, dado que la presentación de las
+propuestas es en mayo todavía se dispone de bastante tiempo para refinarlas. 
 
-2013-2014:Exposición a público general: días de la libertad de software (Alajuela, limón)[nota al pie: explicar qué es el SFD, que fue apoyado por la municipalidad de Alajuela y que tuvo amplia difusión en medios de prensa], semana Interunivesitaria (buses), día de la sede. 
+2013-2014:Exposición a público general: días de la libertad de software
+(Alajuela, limón)[nota al pie: explicar qué es el SFD, que fue apoyado por la
+municipalidad de Alajuela y que tuvo amplia difusión en medios de prensa],
+semana Interunivesitaria (buses), día de la sede. 
 
 %%tomar en cuenta la asociación con los objetivos del laboratorio. 
-La proyección a la comunidad se pudo concretar por medio de la participaron del proyecto “Escáner” en la actividad del Día de la Libertad de Software llevada a cabo en la misma Sede Interuniversitaria durante el mes de setiembre del 2013 y 2014.
+La proyección a la comunidad se pudo concretar por medio de la participaron del
+proyecto “Escáner” en la actividad del Día de la Libertad de Software llevada a
+cabo en la misma Sede Interuniversitaria durante el mes de setiembre del 2013 y
+2014.
 
-Al finalizar 2014: Espacio físico destinado para trabajar y materiales suficientes para cumplir con el propósito de experimentar con tecnologías.  
-
-
+Al finalizar 2014: Espacio físico destinado para trabajar y materiales
+suficientes para cumplir con el propósito de experimentar con tecnologías.  
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -206,27 +284,28 @@ Al finalizar 2014: Espacio físico destinado para trabajar y materiales suficien
 Al finalizar el 2014 nos parece que el LabExp ha ofrecido a los estudiantes involucrados un espacio donde:
 
 \begin{itemize}
-
-\item se enfrentaron a problemas técnicos novedosos para ellos, 
-
-\item profundiza en conceptos de Ingeniería de Software
-
-\item Software libre -> ver código
-
-\item ambientes de programación grupales (habilidades sociales de programación)
-
-\item un proceso de investigación con los estudiantes.
-
+    \item se enfrentaron a problemas técnicos novedosos para ellos, 
+    \item profundiza en conceptos de Ingeniería de Software
+    \item Software libre -> ver código
+    \item ambientes de programación grupales (habilidades sociales de programación)
+    \item un proceso de investigación con los estudiantes.
 \end{itemize}
 
-Los aspectos que justificaron la creación del Laboratorio experimental se cumplieron completamente. El trabajo desarrollado en el Laboratorio Experimetal se convirtió en el único espacio de investigación y extensión de la carrera de Ing. en Computación en la SIU evidenciado en el proceso de acreditación al que se sometió la carrera a finales del 2014. La participación de los estudiantes en distintas actividad orientadas a la comunidad, presentando los proyectos en los que trabajaron permitieron visibilizar la presencia del Tecnológico de Costa Rica entre la comunidad Alajuelense cercana a la Sede Interuniversitaria. 
+Los aspectos que justificaron la creación del Laboratorio experimental se
+cumplieron completamente. El trabajo desarrollado en el Laboratorio Experimetal
+se convirtió en el único espacio de investigación y extensión de la carrera de
+Ing. en Computación en la SIU evidenciado en el proceso de acreditación al que
+se sometió la carrera a finales del 2014. La participación de los estudiantes en
+distintas actividad orientadas a la comunidad, presentando los proyectos en los
+que trabajaron permitieron visibilizar la presencia del Tecnológico de Costa
+Rica entre la comunidad Alajuelense cercana a la Sede Interuniversitaria. 
 
 %%agregar acá el tema de la generación de propuesta como parte del objetivo 2 del laboratorio. 
 
-
-
-
-Trabajo futuro: consolidación de los proyectos y esquemas de trabajo, mejorar la divulgación de los proyectos (principalmente en el ámbito académico), establecer mecanismos para incorporar nuevos miembros (profesores y estudiantes), establecer vínculos con otras carreras de la SIU para trabajar en conjunto. 
+Trabajo futuro: consolidación de los proyectos y esquemas de trabajo, mejorar la
+divulgación de los proyectos (principalmente en el ámbito académico), establecer
+mecanismos para incorporar nuevos miembros (profesores y estudiantes),
+establecer vínculos con otras carreras de la SIU para trabajar en conjunto. 
 
 
 % references section
